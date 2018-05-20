@@ -31,7 +31,7 @@ void launchPowerShell() {
 }
 
 void launchWSL() {
-  //start powershell
+  //start Windows Subsystem for Linux
   Keyboard.press(winKey); // L-GUI
   Keyboard.press('r');
   Keyboard.releaseAll();
@@ -49,7 +49,7 @@ void launchWSL() {
 }
 
 void launchTerminalGUI() {
-  //start powershell
+  //start a terminal window on GUI based Linux (and other OSes for that matter)
   Keyboard.press(winKey); // L-GUI
   Keyboard.releaseAll();
   delay(300);
